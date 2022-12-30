@@ -1,0 +1,7 @@
+span {
+    font-family: "Open Sans", "Times New Roman", Times, serif;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular.ttf") format("truetype");
+}

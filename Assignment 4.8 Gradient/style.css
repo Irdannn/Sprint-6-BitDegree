@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+}
+
+.block {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(45deg, antiquewhite, burlywood);
+}

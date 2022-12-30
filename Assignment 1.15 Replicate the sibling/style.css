@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+.replica {
+    margin-top: 70px;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid green;
+    transform: rotate(-90deg) translate(30px, 90px);
+}
+.triangle {
+    margin-top: 70px;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid cornflowerblue;
+    transform: rotate(90deg);
+}

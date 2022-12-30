@@ -1,0 +1,13 @@
+.art {
+    width: 300px;
+    height: 120px;
+    background-color: steelblue;
+    position: absolute;
+}  
+.tooltip {
+    visibility: hidden;
+    text-align: center;
+}
+.art:hover .tooltip {
+    visibility: visible;
+}

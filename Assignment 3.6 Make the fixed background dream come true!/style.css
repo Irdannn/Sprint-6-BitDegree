@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  header {
+    width: 100vw;
+    height: 20vh;
+    background-color: #ccc;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  header h1 {
+    width: 70%;
+  }
+  .background {
+    width: 100vw;
+    height: 100vh;
+    background: url("https://fe-academy-examples.s3.eu-north-1.amazonaws.com/foggy-mountains.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .text-container {
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+  }
+  .text-container p {
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 50%;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }

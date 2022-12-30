@@ -1,0 +1,64 @@
+.oval {
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 200px;
+    border-radius: 150px/100px;
+}
+
+.triangle {
+    border-top: 80px solid transparent;
+    border-left: 80px solid transparent;
+    border-bottom: 80px solid grey;
+    border-right: 80px solid transparent;
+}
+
+.parallelogram {
+    margin-left: 30px;
+    background-color: darkcyan;
+    width: 200px;
+    height: 150px;
+    transform: skew(10deg);
+}
+
+.pentagon {
+    margin-top: 60px;
+    position: relative;
+    width: 54px;
+    border-width: 50px 18px 0px 18px;
+    border-color: green transparent green transparent;
+    border-style: solid;
+  }
+.pentagon:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid green;
+    border-right: 45px solid transparent;
+    top: -140px;
+    left: -18px;
+}
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+.heart::after, .heart::before {
+  content: "";
+  width: 50px;
+  height: 80px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.heart::after {
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+  left:0;
+}
